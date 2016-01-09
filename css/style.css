@@ -1,0 +1,388 @@
+/* Centered texts in each section
+  * --------------------------------------- */
+.section {
+  text-align: center;
+}
+/* Fixed header and footer.
+  * --------------------------------------- */
+#header {
+  white-space: nowrap;
+  position: fixed;
+  height: 50px;
+  display: block;
+  width: 100%;
+  background: #D4FFEA;
+  z-index: 9;
+  top: 0px;
+}
+#header a {
+  color: black;
+  font-family: "PublicoHeadline-Roman", Times, serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 2px;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  outline: 0;
+}
+.section-wrapper {
+  padding-top: 100px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-container {
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+.navbar {
+  position: relative;
+  width: 1060px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+}
+.navbar .navbar-item {
+  margin-top: 15px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+}
+.section.remove-vertical-align .fp-tableCell {
+  vertical-align: baseline;
+  padding-top: 80px;
+}
+.section {
+  background-size: cover;
+  background-attachment: fixed;
+}
+.title h1 {
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-size: 46px;
+  line-height: 50px;
+  transform: rotate(0);
+  text-shadow: 1px 1px 4px gray;
+  letter-spacing: 8px;
+  font-weight: normal;
+}
+.ui-widget-overlay {
+  background: black !important;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+}
+body hr {
+  width: 200px;
+}
+.select2-results__options .select2-results__message {
+  display: none;
+}
+.section.home {
+  background-image: url(/images/home.jpg);
+  background-position: 0 50px;
+  color: black;
+}
+.section.home h1 {
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-size: 46px;
+  line-height: 50px;
+  transform: rotate(0);
+  text-shadow: 1px 1px 4px gray;
+  letter-spacing: 8px;
+  font-weight: normal;
+}
+.section.home .date h2 {
+  padding-top: 10px;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-shadow: 4px 1px 4px gray;
+}
+.section.home hr {
+  border: none;
+  height: 1px;
+  color: #333;
+  background-color: #333;
+  /* Modern Browsers */
+}
+.section.people .section-wrapper {
+  width: inherit;
+}
+.section.people h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 49px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  line-height: 40px;
+  font-weight: normal;
+}
+.section.people h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+.section.people p {
+  font-family: 'Playfair Display', serif;
+  font-size: 22.4px;
+  letter-spacing: 1px;
+  line-height: 33.6px;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section.people .people {
+  margin-bottom: 100px;
+}
+.section.people .people .name {
+  font-family: 'Helvetica';
+  font-size: 20px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.section.people .picture img {
+  height: 280px;
+  width: 200px;
+}
+.section.people .image-row {
+  min-width: 800px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.section.registry .section-wrapper {
+  padding-top: 30px;
+}
+.section.registry .title h1 {
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-size: 46px;
+  line-height: 50px;
+  transform: rotate(0);
+  text-shadow: 1px 1px 4px gray;
+  letter-spacing: 8px;
+  font-weight: normal;
+}
+.section.registry .poem {
+  margin-top: 50px;
+}
+.section.registry .verse {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 36px;
+  text-transform: uppercase;
+}
+.section.registry .verse p {
+  font-family: 'Microsoft Himalaya', serif;
+  font-size: 25px;
+  line-height: 7px;
+  text-align: center;
+}
+.section.registry .link a {
+  font-family: 'Cooper Black', serif;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.section.registry .link img {
+  width: 70px;
+  height: 70px;
+}
+.section.registry .link a:link {
+  color: black;
+}
+.section.registry .pure-button-hover,
+.section.registry .pure-button:hover,
+.section.registry .pure-button:focus {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), color-stop(40%, rgba(0, 0, 0, 0.05)), to(rgba(0, 0, 0, 0.1)));
+  background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.6));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.6));
+  background-image: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.6));
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.6));
+}
+.section.travel .section-wrapper {
+  padding-top: 0px;
+}
+.section.travel .options {
+  margin-top: 100px;
+}
+.section.travel img {
+  height: 150px;
+  width: 150px;
+}
+.section.travel h3 {
+  text-transform: uppercase;
+}
+.section.travel .pure-button-hover,
+.section.travel .pure-button:hover,
+.section.travel .pure-button:focus {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), color-stop(40%, rgba(0, 0, 0, 0.05)), to(rgba(0, 0, 0, 0.1)));
+  background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.6));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.6));
+  background-image: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.6));
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.6));
+}
+.section.place .section-wrapper {
+  padding-top: 50px;
+}
+.section.place .address h1 {
+  font-family: "Microsoft Himalaya", sans-serif;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+}
+.section.place .address h3 {
+  font-family: "Microsoft Himalaya", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+}
+.section.date {
+  background-image: url(/images/background-date.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: -5px 50px;
+}
+.section.date .countdown {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 240px;
+}
+.section.date .countdown .box {
+  padding-top: 10px;
+  background-color: #FFBBBB;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+.section.date .countdown .box h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+.section.date .countdown .box p {
+  font-size: 13px;
+}
+.section.schedule .timeline {
+  margin-top: 150px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section.schedule .timeline .event {
+  position: relative;
+  font-family: 'Perpetua';
+  font-size: 20px;
+}
+.section.schedule .timeline .event img {
+  height: 100px;
+  width: 100px;
+}
+.section.schedule .timeline .event.cocktail img {
+  height: 100px;
+  width: 70px;
+}
+.section.schedule .timeline .event .line {
+  margin-top: 10px;
+  width: 100%;
+  border-top: 1px solid black;
+}
+.section.schedule .timeline .event .vtick {
+  width: 1px;
+  height: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  padding-top: 0;
+  border-left: 1px solid black;
+}
+.section.schedule .timeline .event .event-title {
+  margin-top: 14px;
+}
+.section.rsvp .form {
+  font-size: 30px;
+  font-family: 'Perpetua';
+}
+.section.rsvp .form input {
+  text-align: center;
+}
+.section.rsvp .form .form-section {
+  margin-top: 50px;
+}
+.section.rsvp .form button {
+  margin-top: 60px;
+}
+.section.rsvp .select2-selection__rendered {
+  height: 31px;
+}
+.section.rsvp .select2-selection {
+  height: 31px;
+}
+.section.rsvp .attend-select {
+  width: 600px;
+}
+.section.rsvp .name-select {
+  width: 550px;
+}
+.section.rsvp .wants-date-select {
+  width: 500px;
+}
+.section.rsvp .thank-you {
+  font-size: 30px;
+  font-family: 'Perpetua';
+}
+.section.rsvp .thank-you img {
+  height: 300px;
+  width: 300px;
+}
+@font-face {
+  font-family: 'RadioAM';
+  src: url("/fonts/RadioAmFont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PublicoHeadline-Roman';
+  src: url("/fonts/PublicoHeadline-Roman.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FuturaStd-Bold';
+  src: url("/fonts/FuturaStd-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FuturaStd-Medium';
+  src: url("/fonts/FuturaStd-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
