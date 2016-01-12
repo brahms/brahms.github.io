@@ -155,9 +155,6 @@ body hr {
   letter-spacing: 4px;
   clear: both;
 }
-.section.people .couple {
-  margin-top: 100px;
-}
 .section.people .poem {
   margin-right: auto;
   margin-left: auto;
@@ -191,8 +188,8 @@ body hr {
   width: 300px;
 }
 .section.people .picture img {
-  height: 280px;
-  width: 200px;
+  height: 251.99999999999997px;
+  width: 180px;
 }
 .section.people .image-row {
   min-width: 800px;
@@ -200,6 +197,10 @@ body hr {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
+}
+.section.people.groomsmen,
+.section.people.bridesmaids {
+  margin-top: 50px;
 }
 .section.registry .section-wrapper {
   padding-top: 30px;
@@ -298,14 +299,6 @@ body hr {
   font-variant: normal;
   font-weight: normal;
 }
-.section.date {
-  background-image: url(/images/background-date.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: -5px 50px;
-}
 .section.date .countdown {
   width: 50%;
   margin-left: auto;
@@ -330,8 +323,22 @@ body hr {
 .section.date .countdown .box p {
   font-size: 13px;
 }
+.section {
+  background-image: url(/images/home.jpg);
+  background-position: 0 50px;
+  color: black;
+}
+.section.schedule .words {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  position: relative;
+}
+.section.schedule .words img {
+  float: left;
+  width: 90px;
+}
 .section.schedule .timeline {
-  margin-top: 150px;
   width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -365,6 +372,22 @@ body hr {
 }
 .section.schedule .timeline .event .event-title {
   margin-top: 14px;
+}
+.section.schedule .words {
+  font-family: 'Microsoft Himalaya';
+  font-size: 2em;
+  margin-top: 50px;
+  margin-bottom: 0;
+  text-align: justify;
+}
+.section.schedule .words img {
+  margin-right: 25px;
+}
+.section.schedule .words p:first-of-type {
+  padding-top: 20px;
+}
+.section.schedule .words p:last-of-type {
+  margin: 0;
 }
 .section.rsvp .form {
   font-size: 30px;
